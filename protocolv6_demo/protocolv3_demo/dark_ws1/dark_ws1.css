@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: default;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mp5_text {
+    max-width: 800px;
+    height: 300px;
+}
+
+.kcr556_text {
+    max-width: 1200px;
+    height: 400px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Navigasyon barının diğer elemanların üstünde olması için */
+}
+
+.nav_main {
+    max-width: 120px;
+    height: 90px;
+    margin-left: 0.7rem;
+}
+
+.gunsfree {
+    margin-left: 1.0rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    background-color:rgb(3, 175, 255);
+    padding: 10px 40px;
+}
+
+.links img {
+    margin-right: 10px;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Menü öğelerini sola hizalamak için kaldırıldı */
+}
+
+.links ul li {
+    list-style-type: none;
+    margin-left: 20px; /* Menü öğeleri arasındaki yatay boşluk */
+}
+
+.links ul li a {
+    font-size: 1rem; /* Yazı boyutu küçültüldü */
+    font-weight: 400;
+    color: black;
+}
+
+.links ul li a span img {
+    vertical-align: bottom;
+}
+
+section{
+    padding: 150px 0px;
+    /* fbbw-0001 */
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: rgb(3, 175, 255);
+    font-size: 30px;
+    transition: all .2s ease;
+}
+
+.section_title h2:hover{
+    background-color: #ff0000;
+    color: white;
+}
+
+.inner_section{
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.inner_section h1{
+    margin: 20px 0px;
+}

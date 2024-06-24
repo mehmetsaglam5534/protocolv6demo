@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.container {
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.game-over {
+    font-size: 3em;
+    color:#ff1900;
+}
+
+.joke {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #a2a2a2;
+}
+
+.retry-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.retry-button:hover {
+    background-color: #ff0000;
+    letter-spacing: 1px;
+}

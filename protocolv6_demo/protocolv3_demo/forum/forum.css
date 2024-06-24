@@ -1,0 +1,181 @@
+ /* 1. Yazı tipleri ------------------> */
+
+ H1  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+  }
+
+  H2  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1,5rem;
+  }
+
+  H3   {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+  }
+  
+  P {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0,9rem;
+
+  }
+
+  /* 2 html ayarları ----------------------> */
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: "Roboto", sans-serif;
+    
+    
+  }
+
+/* 
+  NAV -----------------------------------------------> */
+
+  .main-nav {
+        
+   display: flex;
+   justify-content:space-between;
+   background-color: #fff;
+
+
+  }
+ 
+  .links {
+    width: 950px;
+    align-self:center;
+  }
+  .links ul  {
+
+ text-align: right;
+
+  }
+
+  .links ul li  {
+
+    list-style-type: none;
+    display: inline-table;
+    
+
+  }
+
+  
+  .links ul li a {
+
+   font-size: 1,3rem;
+   font-weight: 400;
+   color: black;
+   text-decoration: none;
+   margin-left: 35px;
+
+  }
+
+  .links ul li a span img  {
+         
+         vertical-align: bottom;
+
+  }
+
+  .search {
+    align-self:center;
+    width: 150px;
+    text-align: right;
+    border-left: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+  }
+
+  .search  a span img{
+
+    vertical-align: middle;
+  }
+
+  .menu-open {
+    align-self:center;
+    width: 200px;
+
+  }
+
+  .menu-open  a span img{
+
+    vertical-align: middle;
+  } 
+
+  .main-nav{
+    background-color: turquoise;
+  }
+
+  footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    
+  }
+
+  #bilgi{
+  flex: 1;
+  padding: 20px;
+  background-color:darkcyan;
+  }
+
+  #hizmetler{
+    flex: 1;
+    padding: 20px;
+  }
+
+.brand-slide {
+  padding: 20px;
+  background-color:white;
+}
+
+.message{
+  margin-top: 7px;
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+.message.jefferson{
+  color: red;
+}
+
+
+.message.Kaufmann{
+  color: rgb(160, 11, 171);
+}
+
+
+.message.Douglas{
+  color:darkblue;
+}
+
+
+.message.Rustin{
+  color:green;
+}
+
+
+.message.Khan{
+  color:purple;
+}
+
+
+.message.Smith{
+  color:orangered;
+}
+
+.message.Woodson{
+  color: darkgoldenrod;
+}

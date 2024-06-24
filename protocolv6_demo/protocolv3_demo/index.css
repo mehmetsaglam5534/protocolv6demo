@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.form {
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+label, input {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.retry-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    transition: all .2s ease;
+    background-color: black;
+}
+
+.retry-button:hover {
+    background-color: #ff0000;
+    letter-spacing: 1px;
+    
+}
